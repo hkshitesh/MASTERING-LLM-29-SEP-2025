@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-llm-pod
+  labels:
+    app: llm
+spec:
+  containers:
+  - name: llm-container
+    image: nginx
