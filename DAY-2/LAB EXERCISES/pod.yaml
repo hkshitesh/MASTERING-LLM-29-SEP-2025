@@ -7,4 +7,4 @@ metadata:
 spec:
   containers:
   - name: llm-container
-    image: nginx
+    image: 962804699607.dkr.ecr.us-west-2.amazonaws.com/hks-llm:latest
