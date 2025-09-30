@@ -8,3 +8,7 @@ aws eks --region us-west-2 describe-cluster --name hiteshCluster --query cluster
 
 aws eks --region us-west-2 update-kubeconfig --name hiteshCluster
 
+
+## AWS Part Recording
+
+https://drive.google.com/drive/folders/13DnuP5UT0lReWol5CICpxME6XpQrl9pH?usp=drive_link
