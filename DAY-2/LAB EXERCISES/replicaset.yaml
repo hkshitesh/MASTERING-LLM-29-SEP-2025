@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: my-llm-rs
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: llm
+  template:
+    metadata:
+      labels:
+        app: llm
+    spec:
+      containers:
+      - name: my-llm
+        image: 962804699607.dkr.ecr.us-west-2.amazonaws.com/hks-llm:latest
